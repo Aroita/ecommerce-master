@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de ordenadores</title>
+    <!--Fuente importada de google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <!--Hoja de estilos css imporatada-->
+    <link rel="stylesheet" href="css/Details1.css">
+    <!--Importando bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <!--Título página-->
+        <h1 class="clase1">fabricante de ordenadores</h1>
+        <!--Barra de navegación modificada con estilos css-->
+        <nav class="clase2">
+            <!-- Navbar content -->
+            <a class="clase3" href="#">&nbsp;&nbsp;Productos &nbsp;&nbsp;</a>
+            <a class="clase3" href="#">&nbsp;&nbsp;Compras realizadas&nbsp;&nbsp;</a>
+            <a class="clase3" href="#">&nbsp;&nbsp;Mi perfil&nbsp;&nbsp;</a>
+            <a class="clase3" href="#">&nbsp;&nbsp;Cerrar sesión&nbsp;&nbsp;</a>
+        </nav>
+
+    </header>
+
+<section>
+
+    <div class="container">
+
+        <h3 class="esp1">3. fabricamos los mejores ordenadores</h3>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 esp1">
+                <img class="ima2" src="img/tiendaordenadores.webp">
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <ul class="circle">
+                    <li><strong>Disposión:</strong> somos los mejores fabricantes de ordenadores del mercado.</li>
+                    <li><strong>localización:</strong> en el mejor sitio al mejor precio en &euro;</li>
+                    <li><strong>capacidad:</strong> enorme y satisfactoria</li>
+                </ul>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div Class="row">
+            <div class="col-3"></div>
+            <div class="col-6 esp1">
+                <button type="button" class="btn btn-outline-primary">Volver</button>
+                <button type="button" class="btn btn-outline-success">Editar</button>
+                <button type="button" class="btn btn-outline-danger">Borrar</button>
+                <button id="bot-vol"  type="button" class="btn btn-outline-primary">Volver</button>
+                <button id="bot-edi"  type="button" class="btn btn-outline-success">Editar</button>
+                <button id="bot-bor"  type="button" class="btn btn-outline-danger">Borrar</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    <footer class="clase1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Tienda de ordenadores &copy; Copyright 2021</h4>
+                </div>
+                <div class="col">
+                    <address>
+                        Muchas gracias.<br>
+                        Visítanos en:<br>
+                        www.tiendadeordenadores.com<br>
+                        Calle piña 321, Madrid<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+    </footer>
+
+
+    <!--Importando bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+         <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+   <!--Archivo javascript-->
+    <script src="js/main1.js"></script>
+
+</body>
+
+</html>
